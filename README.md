@@ -1,11 +1,11 @@
 # Sign Language Recognition with CNN
-This project demonstrates real-time [American Sign Language (ASL)](https://en.wikipedia.org/wiki/American_Sign_Language) recognition using a Convolutional Neural Network (CNN).
+This project demonstrates real-time [American Sign Language (ASL)](https://en.wikipedia.org/wiki/American_Sign_Language) recognition using a [Convolutional Neural Network (CNN)](https://en.wikipedia.org/wiki/Convolutional_neural_network).
 
 The goal is to detect ASL hand signs and display the corresponding alphabet on the camera’s display.
 
 ## Features
 1. Collecting Data:
-    - The `Collect_Data.py` script captures images of ASL hand signs using the webcam.
+    - The `Collect_Data.py` script captures images of ASL hand signs using the webcamera.
     - Users can perform different ASL signs to create a diverse dataset.
   
 2. Creating and Training the CNN:
@@ -16,8 +16,7 @@ The goal is to detect ASL hand signs and display the corresponding alphabet on t
 3. Real-Time Testing (4 Labels):
     - The `Test-CNN.py` script captures live video from the webcam.
     - It uses the trained CNN to predict ASL signs in real time.
-    - The predicted label is displayed on the camera feed.
-    - There is 4 labels to test the localy created model (A, B, C and D).
+    - The predicted label (A, B, C or D) is displayed on the camera feed.
   
 4. External Model Testing (26 Labels):
     - The `external_model_test.py` script loads a pre-trained external model.
@@ -28,6 +27,10 @@ The goal is to detect ASL hand signs and display the corresponding alphabet on t
   ```
   git clone https://github.com/OmarHansali/Sign-Language.git
   ```
+  ```
+  cd Sign-Language
+  ```
+
 
 2. Install the required Python libraries:
   ```
@@ -36,8 +39,10 @@ The goal is to detect ASL hand signs and display the corresponding alphabet on t
 
 ## Usage
 1. Collect Data:
-    - Run collect_data.py to capture ASL hand signs.
+    - Run `collect_data.py` to capture ASL hand signs.
+    - Press `s` to save the image or `q` to properly stop the program.
     - Organize the collected images into appropriate folders (A, B, …, Z).
+
   
 2. Create and Train the CNN:
     - Adjust hyperparameters in `Create-Train-CNN.py` if needed.
@@ -45,9 +50,11 @@ The goal is to detect ASL hand signs and display the corresponding alphabet on t
   
 3. Real-Time Testing (4 Labels):
     - Execute `Test-CNN.py` to see real-time ASL recognition.
+    - Press `q` to properly stop the program.
   
 4. External Model Testing (26 Labels):
-    - Run `external_model_test.py` with the exported pre-trained external model.
+    - Run `external_model_test.py` with the exported pre-trained external model on all the 26 [English alphabet](https://en.wikipedia.org/wiki/English_alphabet).
+    - Press `q` to properly stop the program.
 
 ## License
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) - see the LICENSE file for details.
