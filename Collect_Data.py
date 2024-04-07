@@ -1,4 +1,5 @@
 # python version 3.10.0
+
 import cv2
 from cvzone.HandTrackingModule import HandDetector
 import time

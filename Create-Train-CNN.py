@@ -1,5 +1,3 @@
-# python version 3.10.0
-
 import tensorflow as tf
 
 #### creating the Conventional Neural Network ####
