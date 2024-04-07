@@ -37,6 +37,13 @@ The goal is to detect ASL hand signs and display the corresponding alphabet on t
   pip install -r requirements.txt
   ```
 
+## Python Version
+
+This project requires Python 3.10.0.
+
+The current Python version is specified in the `runtime.txt` file.
+
+
 ## Usage
 1. Collect Data:
     - Run `collect_data.py` to capture ASL hand signs.
