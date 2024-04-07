@@ -47,6 +47,7 @@ The current Python version is specified in the `runtime.txt` file.
 ## Usage
 1. Collect Data:
     - Run `collect_data.py` to capture ASL hand signs.
+    - Change the saving file direction variable if needed.
     - Press `s` to save the image or `q` to properly stop the program.
     - Organize the collected images into appropriate folders (A, B, …, Z).
 
