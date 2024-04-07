@@ -39,7 +39,7 @@ The goal is to detect ASL hand signs and display the corresponding alphabet on t
 
 ## Usage
 1. Collect Data:
-    - Run collect_data.py to capture ASL hand signs.
+    - Run `collect_data.py` to capture ASL hand signs.
     - Organize the collected images into appropriate folders (A, B, …, Z).
   
 2. Create and Train the CNN:
