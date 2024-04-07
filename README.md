@@ -32,6 +32,7 @@ The goal is to detect ASL hand signs and display the corresponding alphabet on t
   cd Sign-Language
   ```
 
+
 2. Install the required Python libraries:
   ```
   pip install -r requirements.txt
@@ -40,7 +41,9 @@ The goal is to detect ASL hand signs and display the corresponding alphabet on t
 ## Usage
 1. Collect Data:
     - Run `collect_data.py` to capture ASL hand signs.
+    - Press `s` to save the image or `q` to properly stop the program.
     - Organize the collected images into appropriate folders (A, B, …, Z).
+
   
 2. Create and Train the CNN:
     - Adjust hyperparameters in `Create-Train-CNN.py` if needed.
@@ -48,9 +51,11 @@ The goal is to detect ASL hand signs and display the corresponding alphabet on t
   
 3. Real-Time Testing (4 Labels):
     - Execute `Test-CNN.py` to see real-time ASL recognition.
+    - Press `q` to properly stop the program.
   
 4. External Model Testing (26 Labels):
-    - Run `external_model_test.py` with the exported pre-trained external model.
+    - Run `external_model_test.py` with the exported pre-trained external model on all the 26 [English alphabet](https://en.wikipedia.org/wiki/English_alphabet).
+    - Press `q` to properly stop the program.
 
 ## License
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) - see the LICENSE file for details.
