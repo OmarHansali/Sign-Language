@@ -28,6 +28,9 @@ The goal is to detect ASL hand signs and display the corresponding alphabet on t
   ```
   git clone https://github.com/OmarHansali/Sign-Language.git
   ```
+  ```
+  cd Sign-Language
+  ```
 
 2. Install the required Python libraries:
   ```
