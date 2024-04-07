@@ -1,0 +1,6 @@
+python==3.10.0
+opencv-python
+cvzone
+numpy
+matplotlib
+tensorflow
