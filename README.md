@@ -1,10 +1,11 @@
-Real-Time American Sign Language (ASL) Recognition with CNN
+# Sign Language Recognition with CNN
 This project demonstrates real-time American Sign Language (ASL) recognition using a Convolutional Neural Network (CNN).
 The goal is to detect ASL hand signs and display the corresponding alphabet on the camera’s display.
 
 ## Features
 - Collecting Data:
     The `Collect_Data.py` script captures images of ASL hand signs using the webcam.
+  
     Users can perform different ASL signs to create a diverse dataset.
   
 - Creating and Training the CNN:
