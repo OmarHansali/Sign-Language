@@ -14,7 +14,7 @@ detector=HandDetector(maxHands=1)
 offset = 20
 imgSize = 128
 
-# Specify the folder to save the images
+# The saving file direction variable
 folder = "data/A"
 
 # Initialize a counter
