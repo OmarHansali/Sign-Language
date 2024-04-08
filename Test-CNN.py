@@ -20,8 +20,6 @@ with open('model/model-labels.pkl', 'rb') as file:
     # Read the contents of the file into a variable
     labels = pickle.load(file)
 
-print(labels, labels[0], labels[1], labels[2], labels[3])
-
 # Load the pre-trained TensorFlow CNN model
 classifier = tf.keras.models.load_model('model/model-weights.h5')
 
