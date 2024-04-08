@@ -1,4 +1,5 @@
 import tensorflow as tf
+import pickle
 
 #### creating the Conventional Neural Network ####
 
@@ -83,7 +84,15 @@ loss, accuracy = classifier.evaluate(validation_data)
 
 
 
-#### Save the model ####
+#### Save the model and the labels####
+
+
+# The labels variable
+labels = ['A', 'B', 'C', 'D']
+
+# Saving the labels
+with open('model/model-labels.pkl', 'wb') as f:
+    pickle.dump(labels, f)
 
 # Saving the model architecture as JSON
 model_json = classifier.to_json()

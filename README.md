@@ -54,6 +54,7 @@ The current Python version is specified in the `runtime.txt` file.
   
 2. Create and Train the CNN:
     - Adjust hyperparameters in `Create-Train-CNN.py` if needed.
+    - Modify the labels variable if needed (Default: `labels = ['A', 'B', 'C', 'D']`).
     - Run `Create-Train-CNN.py` to train the model.
   
 3. Real-Time Testing (4 Labels):
@@ -61,7 +62,7 @@ The current Python version is specified in the `runtime.txt` file.
     - Press `q` to properly stop the program.
   
 4. External Model Testing (26 Labels):
-    - Run `external_model_test.py` with the exported pre-trained external model on all the 26 [English alphabet](https://en.wikipedia.org/wiki/English_alphabet).
+    - Run `external_model_test.py` with an exported pre-trained model on all the 26 [English alphabet](https://en.wikipedia.org/wiki/English_alphabet).
     - Press `q` to properly stop the program.
 
 ## License

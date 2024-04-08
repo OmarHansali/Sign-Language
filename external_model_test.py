@@ -12,7 +12,7 @@ cap=cv2.VideoCapture(0)
 detector=HandDetector(maxHands=1)
 
 # labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y']
-model=Classifier("model/Test.h5","model/model-labels.txt")
+model=Classifier("model/test-model.h5","model/test-labels.txt")
 
 offset=20
 imgSize=300
